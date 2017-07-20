@@ -5,7 +5,7 @@ author: |
   [<img src="../img/CSCAR_darkletter.png", width='50%'>](http://cscar.research.umich.edu/)</div>
   
 output: 
-  html_notebook:
+  html_document:
     css: notebooks.css
     highlight: pygments
     toc: yes
@@ -31,20 +31,26 @@ At present this is a personal list of resources for using R with large, possibly
 # Starting point
 
 [CRAN Task Views](https://cran.r-project.org/web/views/HighPerformanceComputing.html)
+https://github.com/rstudio/Strata2016/blob/master/solutions/02-Big-Data.Rmd
 
 - issues: includes out of data and no longer developed packages etc.
 
 # Basic parallelism
+
 ## Packages
+
 parallel
+
 foreach and related
 
 ## Spark
+
 [R on Spark](https://github.com/apache/spark/tree/master/R)
 
 [sparklyr](http://spark.rstudio.com) R interface for Apache Spark. Not ready for prime time.
 
 ## Interfaces
+
 Rcpp
 
 ```{r}
@@ -79,6 +85,8 @@ using MixedModels
 readr
 
 feather
+
+dbplyr
 
 dtplyr
 
